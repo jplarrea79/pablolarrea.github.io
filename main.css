@@ -13,23 +13,23 @@ footer {
 }
 
 header {
-    background-color: navy;
-    color: white;
+    background-color: yellow;
+    color: blue;
     text-align: center;
     padding: 1.0rem;
     border-radius: 10px;
 }
 
 p img {
-    float: Right;
-    margin: 10px;
+    float: center;
+    margin: 20px;
     border: 1px solid black;
     border-radius: 50%;
 }
 
 footer {
-    background-color: navy;
-    color: white;
+    background-color: yellow;
+    color: black;
     text-align: center;
     padding: 1.0rem;
     border-radius: 10px;
@@ -45,9 +45,9 @@ h2 {
 
 span {
     font-weight: 200;
-    color: yellow;
+    color: blue;
 }
 p{
     font-weight: 200;
-    color: yellow;
+    color: blue;
 }

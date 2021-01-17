@@ -1,0 +1,110 @@
+body {
+    font-size: 12px;
+    line-height: 2.0;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.5rem auto;
+    max-width: 760px;
+    font-family: 'impact', serif;
+    font-family: 'Calibri', sans-serif;
+}
+
+header {
+    background-color: Brown;
+    color: white;
+    text-align: center;
+    padding: 2.0rem;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+footer {
+    background-color:sky blue ;
+    color: white;
+    text-align: center;
+    padding: 1.0rem;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: rgb(255, 0, 55);
+    padding: 1.0rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Phone View */
+@media only screen and (min-width:19.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+        border: solid;
+        font-family: 'Calibri', sans-serif;
+
+    }
+
+    p img {
+        border-bottom: ridge;
+        border-top: ridge;
+    }
+
+    section {
+        border: ridge;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+/* Tablet View*/
+@media only screen and (min-width:37.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.8rem;
+        border: solid;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+
+    p img {
+        border-bottom: ridge;
+        border-top: ridge;
+    }
+
+    section {
+        border: ridge;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+}
+
+/* Desktop View */
+
+
+    main {
+        display: grid;
+        grid-template-columns: 0fr 0fr 0fr;
+        font-size: 0.8rem;
+        border: solid;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    p img {
+        border-bottom: ridge;
+        border-top: ridge;
+    }
+
+    section {
+        border: ridge;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+}
