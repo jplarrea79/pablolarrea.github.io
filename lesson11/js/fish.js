@@ -55,7 +55,7 @@ fetch(requestURL)
 
   });
 
-  const eventURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+  const eventURL = 'https://byui-wdd230.github.io/weather/data/towndata.json';
 
   fetch(eventURL)
     .then(function (response) {
